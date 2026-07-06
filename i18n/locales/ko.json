@@ -1,0 +1,190 @@
+{
+  "common": {
+    "appName": "광복81주년 역사탐방",
+    "appSubtitle": "만주·연해주 독립운동 탐방",
+    "loading": "불러오는 중...",
+    "error": "오류가 발생했습니다",
+    "retry": "다시 시도",
+    "back": "뒤로",
+    "seeAll": "전체 보기",
+    "askAi": "AI에게 질문",
+    "day": "Day {{day}}",
+    "dDay": "D-{{days}}",
+    "dDayToday": "D-Day",
+    "language": "언어"
+  },
+  "home": {
+    "heroTitle": "광복81주년",
+    "heroSubtitle": "만주·연해주\n독립운동 탐방",
+    "menu": {
+      "schedule": "일정",
+      "map": "지도",
+      "figures": "독립운동가",
+      "aiGuide": "AI 역사해설사",
+      "aiTranslate": "AI 통역",
+      "practical": "실용정보",
+      "resources": "자료실"
+    }
+  },
+  "schedule": {
+    "title": "여행 일정",
+    "places": "방문지",
+    "placeCount": "방문지 {{count}}곳",
+    "routeTitle": "이동 경로",
+    "relatedFigures": "관련 독립운동가",
+    "viewOnMap": "지도에서 보기",
+    "aiAudioGuide": "🎧 AI 역사해설 듣기"
+  },
+  "map": {
+    "title": "탐방 지도",
+    "currentLocation": "현재 위치",
+    "distance": "{{distance}}km",
+    "viewDetails": "상세 보기",
+    "webFallback": "지도는 iOS/Android 앱에서 이용할 수 있습니다. 아래 목록에서 방문지를 확인하세요.",
+    "awayFromYou": "현재 위치에서"
+  },
+  "figures": {
+    "title": "독립운동가",
+    "biography": "생애",
+    "achievements": "업적",
+    "quote": "대표 명언",
+    "relatedPlaces": "관련 장소",
+    "aiExplanation": "AI 설명",
+    "videos": "영상",
+    "references": "참고자료"
+  },
+  "aiGuide": {
+    "title": "AI 역사해설사",
+    "placeholder": "궁금한 역사를 질문해 보세요...",
+    "send": "질문하기",
+    "examples": {
+      "title": "예시 질문",
+      "q1": "안희제 선생은 왜 이곳에 왔나요?",
+      "q2": "최재형은 어떤 활동을 했나요?",
+      "q3": "이 장소의 역사적 의미를 알려주세요.",
+      "q4": "초등학생도 이해하도록 설명해주세요.",
+      "q5": "교사가 수업할 수 있도록 설명해주세요."
+    }
+  },
+  "aiTranslate": {
+    "title": "AI 통역",
+    "sourceLanguage": "원본 언어",
+    "targetLanguage": "번역 언어",
+    "inputPlaceholder": "번역할 텍스트를 입력하세요...",
+    "translate": "번역하기",
+    "speak": "음성 읽기",
+    "languages": {
+      "ko": "한국어",
+      "zh": "중국어",
+      "ru": "러시아어",
+      "en": "영어"
+    }
+  },
+  "practical": {
+    "title": "실용정보",
+    "emergency": "긴급연락망",
+    "exchange": "환전",
+    "clothing": "복장 및 기후",
+    "checklist": "체크리스트",
+    "embassyChina": "주중 대한민국 대사관",
+    "consulateVladivostok": "주블라디보스톡 총영사관"
+  },
+  "resources": {
+    "title": "교육 자료실",
+    "references": "참고문헌",
+    "download": "다운로드",
+    "notices": "공지사항",
+    "types": {
+      "reference": "참고문헌",
+      "document": "문서",
+      "video": "영상"
+    }
+  },
+  "audioGuide": {
+    "play": "재생",
+    "pause": "일시정지",
+    "forward": "10초 앞으로",
+    "backward": "10초 뒤로",
+    "replay": "다시 듣기",
+    "speed": "재생 속도",
+    "subtitle": "자막",
+    "fullscreen": "전체 화면 읽기",
+    "fontSize": "글자 크기"
+  },
+  "admin": {
+    "title": "관리자",
+    "schedule": "일정 수정",
+    "notices": "공지 작성",
+    "upload": "자료 업로드",
+    "push": "푸시 알림",
+    "loginRequired": "관리자 기능을 사용하려면 로그인이 필요합니다.",
+    "adminRequired": "관리자 권한이 필요합니다.",
+    "goToLogin": "로그인하기",
+    "loggedInAs": "{{name}}님으로 로그인됨",
+    "logout": "로그아웃",
+    "noticeTitleKo": "공지 제목 (한국어)",
+    "noticeTitleEn": "공지 제목 (영어)",
+    "noticeBodyKo": "공지 내용 (한국어)",
+    "noticeBodyEn": "공지 내용 (영어)",
+    "pinNotice": "상단 고정",
+    "publishNotice": "공지 등록",
+    "noticePublished": "공지가 등록되었습니다.",
+    "scheduleHint": "Firestore에 저장된 일정이 앱 전체에 반영됩니다.",
+    "seedSchedule": "로컬 일정 데이터 업로드",
+    "scheduleSeeded": "일정 데이터가 Firestore에 업로드되었습니다.",
+    "scheduleSaved": "일정이 저장되었습니다.",
+    "saveSchedule": "일정 저장",
+    "dateLabelKo": "날짜 표시 (한국어)",
+    "dateLabelEn": "날짜 표시 (영어)",
+    "routeKo": "이동 경로 (한국어, 한 줄에 한 곳)",
+    "routeEn": "이동 경로 (영어, 한 줄에 한 곳)",
+    "routePlaceholder": "인천\n하얼빈\n영안",
+    "uploadHint": "파일을 선택한 뒤 Firebase Storage에 업로드합니다.",
+    "resourceTitleKo": "자료 제목 (한국어)",
+    "resourceTitleEn": "자료 제목 (영어)",
+    "resourceDescKo": "자료 설명 (한국어)",
+    "resourceDescEn": "자료 설명 (영어)",
+    "pickFile": "파일 선택",
+    "selectedFile": "선택됨: {{name}}",
+    "uploadResource": "자료 업로드",
+    "resourceUploaded": "자료가 업로드되었습니다.",
+    "fileRequired": "업로드할 파일을 선택해 주세요.",
+    "pushHint": "등록된 기기 {{count}}대에 알림을 보냅니다.",
+    "pushTitle": "알림 제목",
+    "pushBody": "알림 내용",
+    "pushNote": "실제 기기에서 앱을 실행한 사용자에게만 전달됩니다. EAS projectId 설정이 필요합니다.",
+    "sendPush": "푸시 알림 보내기",
+    "pushSent": "알림이 전송되었습니다.",
+    "pushSentDetail": "성공 {{sent}}건, 실패 {{failed}}건",
+    "noPushTokens": "등록된 푸시 토큰이 없습니다."
+  },
+  "auth": {
+    "login": "로그인",
+    "signup": "회원가입",
+    "email": "이메일",
+    "password": "비밀번호",
+    "displayName": "이름",
+    "organization": "소속 (학교/기관)",
+    "submitLogin": "로그인",
+    "submitSignup": "가입하기",
+    "switchToSignup": "계정이 없으신가요? 가입하기",
+    "switchToLogin": "이미 계정이 있으신가요? 로그인",
+    "loginSuccess": "로그인되었습니다.",
+    "signupSuccess": "가입이 완료되었습니다.",
+    "invalidCredentials": "이메일 또는 비밀번호를 확인해 주세요.",
+    "firebaseNotConfigured": "Firebase가 설정되지 않았습니다. .env 파일을 확인해 주세요."
+  },
+  "ai": {
+    "notConfigured": "OpenAI API가 설정되지 않았습니다. .env 파일에 EXPO_PUBLIC_OPENAI_API_KEY를 입력해 주세요.",
+    "generatingScript": "AI가 역사 해설을 작성하고 있습니다...",
+    "generatingAudio": "자연스러운 음성으로 변환 중입니다...",
+    "thinking": "AI가 생각하고 있습니다..."
+  },
+  "firebase": {
+    "notConfigured": "Firebase 연동 대기 중",
+    "notConfiguredDesc": ".env 파일에 Firebase 설정값을 입력하면 실시간 공지와 자료실이 활성화됩니다.",
+    "noNotices": "등록된 공지가 없습니다.",
+    "noResources": "등록된 자료가 없습니다.",
+    "pinned": "고정"
+  }
+}

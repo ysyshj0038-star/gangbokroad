@@ -1,0 +1,190 @@
+{
+  "common": {
+    "appName": "81st Liberation Tour",
+    "appSubtitle": "Manchuria & Primorye Independence Movement",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "back": "Back",
+    "seeAll": "See all",
+    "askAi": "Ask AI",
+    "day": "Day {{day}}",
+    "dDay": "D-{{days}}",
+    "dDayToday": "D-Day",
+    "language": "Language"
+  },
+  "home": {
+    "heroTitle": "81st Liberation",
+    "heroSubtitle": "Manchuria & Primorye\nIndependence Movement Tour",
+    "menu": {
+      "schedule": "Schedule",
+      "map": "Map",
+      "figures": "Independence Leaders",
+      "aiGuide": "AI History Guide",
+      "aiTranslate": "AI Translator",
+      "practical": "Practical Info",
+      "resources": "Resources"
+    }
+  },
+  "schedule": {
+    "title": "Tour Schedule",
+    "places": "Places",
+    "placeCount": "{{count}} places",
+    "routeTitle": "Route",
+    "relatedFigures": "Related Leaders",
+    "viewOnMap": "View on Map",
+    "aiAudioGuide": "🎧 Listen to AI History Guide"
+  },
+  "map": {
+    "title": "Tour Map",
+    "currentLocation": "Current Location",
+    "distance": "{{distance}} km",
+    "viewDetails": "View Details",
+    "webFallback": "Maps are available on iOS/Android. Browse places in the list below.",
+    "awayFromYou": "From your location"
+  },
+  "figures": {
+    "title": "Independence Leaders",
+    "biography": "Biography",
+    "achievements": "Achievements",
+    "quote": "Famous Quote",
+    "relatedPlaces": "Related Places",
+    "aiExplanation": "AI Explanation",
+    "videos": "Videos",
+    "references": "References"
+  },
+  "aiGuide": {
+    "title": "AI History Guide",
+    "placeholder": "Ask about history...",
+    "send": "Ask",
+    "examples": {
+      "title": "Example Questions",
+      "q1": "Why did An Huije come to this place?",
+      "q2": "What activities did Choi Jae-hyeong engage in?",
+      "q3": "What is the historical significance of this place?",
+      "q4": "Explain so elementary students can understand.",
+      "q5": "Explain so teachers can use it in class."
+    }
+  },
+  "aiTranslate": {
+    "title": "AI Translator",
+    "sourceLanguage": "Source Language",
+    "targetLanguage": "Target Language",
+    "inputPlaceholder": "Enter text to translate...",
+    "translate": "Translate",
+    "speak": "Read Aloud",
+    "languages": {
+      "ko": "Korean",
+      "zh": "Chinese",
+      "ru": "Russian",
+      "en": "English"
+    }
+  },
+  "practical": {
+    "title": "Practical Info",
+    "emergency": "Emergency Contacts",
+    "exchange": "Currency Exchange",
+    "clothing": "Clothing & Climate",
+    "checklist": "Checklist",
+    "embassyChina": "Korean Embassy in China",
+    "consulateVladivostok": "Korean Consulate in Vladivostok"
+  },
+  "resources": {
+    "title": "Educational Resources",
+    "references": "References",
+    "download": "Download",
+    "notices": "Notices",
+    "types": {
+      "reference": "Reference",
+      "document": "Document",
+      "video": "Video"
+    }
+  },
+  "audioGuide": {
+    "play": "Play",
+    "pause": "Pause",
+    "forward": "Forward 10s",
+    "backward": "Back 10s",
+    "replay": "Replay",
+    "speed": "Speed",
+    "subtitle": "Subtitles",
+    "fullscreen": "Full Screen Reading",
+    "fontSize": "Font Size"
+  },
+  "admin": {
+    "title": "Admin",
+    "schedule": "Edit Schedule",
+    "notices": "Post Notice",
+    "upload": "Upload Resources",
+    "push": "Push Notification",
+    "loginRequired": "Please sign in to access admin features.",
+    "adminRequired": "Admin privileges required.",
+    "goToLogin": "Sign In",
+    "loggedInAs": "Signed in as {{name}}",
+    "logout": "Sign Out",
+    "noticeTitleKo": "Notice Title (Korean)",
+    "noticeTitleEn": "Notice Title (English)",
+    "noticeBodyKo": "Notice Body (Korean)",
+    "noticeBodyEn": "Notice Body (English)",
+    "pinNotice": "Pin to top",
+    "publishNotice": "Publish Notice",
+    "noticePublished": "Notice published successfully.",
+    "scheduleHint": "Schedule saved in Firestore is reflected across the app.",
+    "seedSchedule": "Upload Local Schedule Data",
+    "scheduleSeeded": "Schedule data uploaded to Firestore.",
+    "scheduleSaved": "Schedule saved.",
+    "saveSchedule": "Save Schedule",
+    "dateLabelKo": "Date Label (Korean)",
+    "dateLabelEn": "Date Label (English)",
+    "routeKo": "Route (Korean, one stop per line)",
+    "routeEn": "Route (English, one stop per line)",
+    "routePlaceholder": "Incheon\nHarbin\nYongan",
+    "uploadHint": "Pick a file and upload to Firebase Storage.",
+    "resourceTitleKo": "Resource Title (Korean)",
+    "resourceTitleEn": "Resource Title (English)",
+    "resourceDescKo": "Description (Korean)",
+    "resourceDescEn": "Description (English)",
+    "pickFile": "Pick File",
+    "selectedFile": "Selected: {{name}}",
+    "uploadResource": "Upload Resource",
+    "resourceUploaded": "Resource uploaded successfully.",
+    "fileRequired": "Please select a file to upload.",
+    "pushHint": "Send to {{count}} registered device(s).",
+    "pushTitle": "Notification Title",
+    "pushBody": "Notification Body",
+    "pushNote": "Only delivered to users on physical devices. Requires EAS projectId.",
+    "sendPush": "Send Push Notification",
+    "pushSent": "Notification sent.",
+    "pushSentDetail": "Sent {{sent}}, failed {{failed}}",
+    "noPushTokens": "No push tokens registered."
+  },
+  "auth": {
+    "login": "Sign In",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Name",
+    "organization": "Organization",
+    "submitLogin": "Sign In",
+    "submitSignup": "Create Account",
+    "switchToSignup": "Don't have an account? Sign up",
+    "switchToLogin": "Already have an account? Sign in",
+    "loginSuccess": "Signed in successfully.",
+    "signupSuccess": "Account created successfully.",
+    "invalidCredentials": "Please check your email and password.",
+    "firebaseNotConfigured": "Firebase is not configured. Check your .env file."
+  },
+  "ai": {
+    "notConfigured": "OpenAI API is not configured. Add EXPO_PUBLIC_OPENAI_API_KEY to .env",
+    "generatingScript": "AI is writing the history narration...",
+    "generatingAudio": "Converting to natural speech...",
+    "thinking": "AI is thinking..."
+  },
+  "firebase": {
+    "notConfigured": "Firebase Pending Setup",
+    "notConfiguredDesc": "Add Firebase credentials to .env to enable live notices and resources.",
+    "noNotices": "No notices yet.",
+    "noResources": "No resources yet.",
+    "pinned": "Pinned"
+  }
+}
