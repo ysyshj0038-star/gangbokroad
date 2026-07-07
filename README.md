@@ -48,7 +48,7 @@ EXPO_PUBLIC_GOOGLE_MAPS_API_KEY=
 EAS_PROJECT_ID=
 ```
 
-Android 지도는 Google Cloud Console에서 Maps SDK for Android를 활성화하고, 앱 패키지 `com.gwangbok.road`와 빌드 인증서 SHA-1로 제한한 API 키가 필요합니다.
+Google Maps를 사용하려면 Google Cloud Console에서 Maps JavaScript API와 Maps SDK for Android를 활성화하세요. 웹 배포용 키는 Vercel 도메인으로 HTTP referrer 제한을 걸고, Android용 키는 앱 패키지 `com.gwangbok.road`와 빌드 인증서 SHA-1로 제한하는 것을 권장합니다.
 
 ## Firebase 준비
 
@@ -127,6 +127,7 @@ VERCEL_PROJECT_ID
 - `npm run typecheck` 통과
 - Firebase Auth, Firestore, Storage 값 입력
 - OpenAI API 키 입력 및 AI 해설/통역 동작 확인
+- Google Maps JavaScript API 키와 Vercel 도메인 제한 확인
 - Android Google Maps API 키와 SHA-1 제한 확인
 - 실제 기기에서 위치 권한, 지도, 푸시 토큰 등록 확인
 - 관리자 계정 `role: admin` 설정
